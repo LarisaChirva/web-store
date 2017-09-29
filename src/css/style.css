@@ -64,7 +64,7 @@
 
 body{
     margin: 0;
-    color: #111;
+    color: #34404b;
     font: 12px/1 "Harmonia_regular", sans-serif;
     background-color: #f4f6f8;
 }
@@ -121,9 +121,30 @@ textarea{
     border-top: 1px solid #edeff1;
     border-bottom: 1px solid #edeff1;
 }
+
+.orange-text{
+    color: #ff5912;
+}
 /* DEFAULT-CLASSES END*/
 
 /*DEFAULT COMPONENT START*/
+
+.title{
+    font-family: 'Harmonia_black';
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.title.big{
+    font-size: 52px;
+}
+
+.text{
+    padding-top: 18px;
+    font-size: 16px;
+    color: #495662;
+}
 
 /*header start*/
 .header .top-header {
@@ -168,7 +189,6 @@ textarea{
 
 .header .header-nav a{
     font-size: 16px;
-    color: #34404b;
     text-transform: capitalize;
 }
 
@@ -201,4 +221,67 @@ textarea{
 }
 
 /*header end*/
+
 /*DEFAULT COMPONENT END*/
+
+/*main start*/
+
+.sale-carousel {
+    min-height: 650px;
+    background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
+}
+
+#sale-carousel{
+    padding-left: 8%;
+}
+
+.sale-carousel .carousel-indicators{
+    width: auto;
+    bottom: auto;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.sale-carousel .carousel-indicators li{
+    background: #fff;
+    display: block;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    width: 10px;
+    height: 16px;
+    transition: all .3s linear;
+}
+
+.sale-carousel .carousel-indicators li + li{
+    margin-top: 10px;
+}
+
+.sale-carousel .carousel-indicators li.active{
+    background: #ff5912;
+    height: 36px;
+}
+
+.sale-carousel .product {
+    font-size: 18px;
+    font-family: 'Harmonia_semibold';
+    color: #3c4751;
+}
+
+.sale-carousel .price{
+    font-family: 'Harmonia_semibold';
+    display: inline-block;
+    padding: 60px 0;
+    font-size: 18px;
+    margin-right: 32px;
+}
+
+.sale-carousel .order{
+    font-family: 'Harmonia_semibold';
+    display: inline-block;
+    font-size: 18px;
+
+}
+/*main-end*/

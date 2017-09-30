@@ -156,6 +156,7 @@ textarea{
     background: #ff9060;
 }
 
+
 .sizes{
     margin-bottom: 30px;
     font-size: 14px;
@@ -308,6 +309,10 @@ textarea{
     padding: 40px 0;
 }
 
+.bottom-header .icon.icon-cart-ic:hover{
+    background-position: -20px -59px;
+}
+
 .header .bottom-header .user-controls{
     margin-left: auto;
 }
@@ -317,9 +322,6 @@ textarea{
 }
 .icon-user-ic:hover{
     background-position: 0px -59px;
-}
-.icon-cart-ic:hover{
-    background-position: -20px -59px;
 }
 
 .header .header-nav a{
@@ -538,13 +540,16 @@ input[type="checkbox"]:checked + label::before{
     display: inline-block;
     font-size: 18px;
     text-transform: capitalize;
-}
-.sale-carousel .order span:hover{
     color: #ff5912;
+}
+.sale-carousel .order a:hover{
+    color: #ff5912;
+    opacity: .7;
 }
 
 .load-more {
     height: 60px;
+    margin-bottom: 60px;
 }
 
 .circle{
@@ -570,6 +575,24 @@ input[type="checkbox"]:checked + label::before{
     border: 1px solid #eaedef;
 }
 
+.adv-area{
+    padding: 30px 179px;
+    border: 1px solid #eaedef;
+}
+
+.adv-area span{
+    display: inline-block;
+}
+
+.adv-area-text{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.adv-area-number{
+    opacity: .4;
+}
+
 .sales-block{
     position: relative;
 }
@@ -590,6 +613,25 @@ input[type="checkbox"]:checked + label::before{
     top: 0;
     left:0;
     position: absolute;
+}
+
+.sale{
+    display: inline-block;
+    transform: rotate(-45deg);
+    color: #fff;
+    font-family: 'Harmonia_italic';
+    padding-top: 17px;
+    padding-right: 9px;
+}
+
+.discount{
+    display: inline-block;
+    transform: rotate(-45deg);
+    color: #fff;
+    font-family: 'Harmonia_black';
+    font-size: 18px;
+    padding-top: 2px;
+    padding-left: 14px;
 }
 
 .sales-block{
@@ -613,7 +655,6 @@ input[type="checkbox"]:checked + label::before{
     color: #495662;
     display: block;
     margin-top: 15px;
-    font-size: 12px;
 }
 
 .kit-price{
@@ -632,10 +673,6 @@ input[type="checkbox"]:checked + label::before{
     display: inline-block;
 }
 
-.fa.fa-usd{
-    color: #ff5912;
-    display: inline-block;
-}
 
 
 /*na yroke*/

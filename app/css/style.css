@@ -221,6 +221,18 @@ textarea{
     padding-bottom: 30px;
 }
 
+.icon-add-to-cart-ic:hover{
+    background-position: 0px -38px;
+}
+
+.icon-like-ic:hover{
+    background-position: -38px -80px;
+}
+
+.icon-share-ic:hover {
+    background-position: -44px -59px;
+}
+
 .product-item .colors li{
     display: inline-block;
     width: 13px;
@@ -276,6 +288,22 @@ textarea{
     color: #34404b;
 }
 
+.fa-facebook:hover{
+    color: #ff5912;
+}
+
+.fa-twitter:hover{
+    color: #ff5912;
+}
+
+.fa-google-plus:hover{
+    color: #ff5912;
+}
+
+.fa-instagram:hover{
+    color: #ff5912;
+}
+
 .header .header-icon a + a{
     margin-left: 22px;
 }
@@ -290,6 +318,16 @@ textarea{
 
 .header .bottom-header .user-controls{
     margin-left: auto;
+}
+
+.icon-search-ic:hover{
+    background-position: -81px 0px;
+}
+.icon-user-ic:hover{
+    background-position: 0px -59px;
+}
+.icon-cart-ic:hover{
+    background-position: -20px -59px;
 }
 
 .header .header-nav a{
@@ -423,6 +461,9 @@ textarea{
     display: inline-block;
     font-size: 18px;
     text-transform: capitalize;
+}
+.sale-carousel .order span:hover{
+    color: #ff5912;
 }
 
 .load-more {

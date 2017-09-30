@@ -30,16 +30,16 @@
         <div class="container">
             <div class="flex-container justify-sb align-center">
                 <div class="contact-list">
-                   <ul>
-                       <li>
-                           <i class="icon icon-mail-ic"></i>
-                           <span class="contact-text">info@shopy.com</span>
-                       </li>
-                       <li>
-                           <i class="icon icon-phone-book-ic"></i>
-                           <span class="contact-text">996 - 5553 - 453</span>
-                       </li>
-                   </ul> 
+                    <ul>
+                        <li>
+                            <i class="icon icon-mail-ic"></i>
+                            <span class="contact-text">info@shopy.com</span>
+                        </li>
+                        <li>
+                            <i class="icon icon-phone-book-ic"></i>
+                            <span class="contact-text">996 - 5553 - 453</span>
+                        </li>
+                    </ul>
                 </div>
                 <div class="header-icon">
                     <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -71,7 +71,7 @@
                     <a href="">
                         <i class="icon icon-cart-ic"></i>
                         <div class="label">
-                        <span class="header-number">5</span>
+                            <span class="header-number">5</span>
                         </div>
                     </a>
                 </nav>

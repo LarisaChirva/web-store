@@ -378,7 +378,7 @@ textarea{
 .product-item{
     font-family: 'Harmonia_bold';
     font-size: 18px;
-    padding: 30px 10px;
+    padding: 35px 10px;
     position: relative;
     height: 372px;
 }
@@ -401,7 +401,78 @@ textarea{
        text-overflow: ellipsis;
 }
 
-/*na yroke*/
+.best-items{
+    padding: 35px 20px;
+    font-family: 'Harmonia_bold';
+    position: relative;
+}
+
+.best-items:hover{
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.best-item-title{
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+}
+
+
+.best-item-info{
+    margin-top: 33px;
+}
+
+.best-item-info li{
+    display: inline;
+    color: #ff5912;
+}
+
+.best-items .best-item-info .color-gr{
+    color: #e9ecf3;
+}
+
+.best-item-price{
+    font-size: 16px;
+}
+
+.best-item-description{
+    padding-left: 25px;
+    border-left: 1px solid #edeff1;
+    margin-left: 25px;
+
+}
+
+.best-item-description .best-add-to-cart{
+    font-family: 'Harmonia_semibold';
+    font-size: 16px;
+    opacity: 0;
+    position: absolute;
+    bottom: 52px;
+    left: 50%;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.best-item-description .best-add-to-cart a{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.best-items:hover .best-item-info{
+    opacity: 0;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.best-items:hover .best-add-to-cart{
+    opacity: 1;
+}
+
 .subscribe-form{
     padding: 35px 45px;
 }

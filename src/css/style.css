@@ -453,8 +453,49 @@ textarea{
     padding: 35px 45px;
 }
 
+.subscribe-form .mini-title{
+    font-family: 'Harmonia_bold';
+    font-size: 18px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 26px;
+}
+
+.subscribe-description span{
+    font-family: 'Harmonia_italic';
+}
+
+.subscribe-description input{
+    display: inline-block;
+    margin-left: 12px;
+}
+
 label{
     margin: 0;
+}
+
+.new-latter .btn.btn-default{
+    background-color: #ff5912;
+    border: none;
+    font-size: 14px;
+    font-family: "Harmonia_semibold";
+    color: #fff;
+    padding: 18px 29px;
+    border-radius: inherit;
+}
+
+.new-latter .btn.btn-default:hover{
+    opacity: .9;
+}
+
+.new-latter .subscribe-input{
+    width: 280px;
+    padding-right: 6px;
+    font-family: 'Harmonia_italic';
+}
+
+.new-latter label {
+    margin-right: 12px;
 }
 
 input, button, select{
@@ -738,8 +779,46 @@ input[type="checkbox"]:checked + label::before{
     display: inline-block;
 }
 
+.footer{
+    padding-top: 92px;
+    padding-bottom: 82px;
+    margin-top: 60px;
+    color: #28313b;
+}
 
+.footer-logo {
+    flex-direction: column;
+}
 
-/*na yroke*/
+.footer-logo img {
+    margin-bottom: 23px;
+}
 
-/*main-end*/
+.footer-logo span{
+    text-transform: lowercase;
+}
+
+.footer-nav ul{
+    list-style: unset;
+    line-height: 2.14em;
+}
+
+.footer-nav ul + ul{
+    margin-left: 90px;
+}
+
+.footer-nav li:hover, a:hover{
+    color: #ff5912;
+}
+
+.footer-text{
+    font-family: 'Harmonia_semibold';
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 19px;
+    text-transform: capitalize;
+}
+
+.payment-methods li +li{
+    margin-left: 10px;
+}

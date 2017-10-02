@@ -146,6 +146,14 @@ textarea{
     text-align: center;
 }
 
+.category-title{
+    display: inline-block;
+    font-family: 'Harmonia_black';
+    font-size: 18px;
+    padding-bottom: 40px;
+    color: #ff5912;
+}
+
 .red-bg{
     background-color: #e12e3f;
 }
@@ -165,7 +173,6 @@ textarea{
 .light-orange-bg{
     background: #ff9060;
 }
-
 
 .sizes{
     margin-bottom: 30px;
@@ -545,6 +552,12 @@ button{
     padding-bottom: 60px;
 }
 
+.aside-section .category-list{
+    font-family: 'Harmonia_semibold';
+    font-size: 16px;
+    line-height: 3.125em;
+}
+
 input[type="checkbox"]{
     display: none;
 }
@@ -575,6 +588,33 @@ input[type="checkbox"]:checked + label{
 
 input[type="checkbox"]:checked + label::before{
     border-color: #ff5912;
+}
+.category-wrap .range{
+    padding-top: 35px;
+}
+
+.category-wrap label{
+    margin-right: 11px;
+}
+
+.input-margin{
+    margin-right: 22px;
+}
+
+.category-wrap input{
+    background-color: #edf0f2;
+    height: 25px;
+    max-width: 43px;
+    padding: 0;
+}
+
+.range label{
+    font-family: 'Harmonia_semibold';
+    font-size: 14px;
+}
+
+.checkbox-group + .checkbox-group{
+    margin-top: 35px;
 }
 
 .ui-widget.ui-widget-content{

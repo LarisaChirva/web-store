@@ -150,7 +150,7 @@ textarea{
     display: inline-block;
     font-family: 'Harmonia_black';
     font-size: 18px;
-    padding-bottom: 40px;
+    padding-bottom: 38px;
     color: #ff5912;
 }
 
@@ -552,10 +552,19 @@ button{
     padding-bottom: 60px;
 }
 
+.category-wrap .row + .row{
+    margin-top: 31px;
+}
+
+.category-wrap .load-more{
+    margin-top: 31px;
+    margin-bottom: 0px;
+}
+
 .aside-section .category-list{
     font-family: 'Harmonia_semibold';
     font-size: 16px;
-    line-height: 3.125em;
+    line-height: 3.1em;
 }
 
 input[type="checkbox"]{
@@ -589,6 +598,7 @@ input[type="checkbox"]:checked + label{
 input[type="checkbox"]:checked + label::before{
     border-color: #ff5912;
 }
+
 .category-wrap .range{
     padding-top: 35px;
 }

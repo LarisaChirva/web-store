@@ -66,4 +66,13 @@ $( function() {
 
     });
 
+    //flexslider init
+    $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails"
+    });
+
+    //formstayler init
+    $('.inpunt-guantity').styler();
+
 } );

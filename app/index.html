@@ -29,7 +29,7 @@
     <div class="top-header">
         <div class="container">
             <div class="flex-container justify-sb align-center">
-                <div class="contact-list">
+                <nav class="contact-list">
                    <ul>
                        <li>
                            <i class="icon icon-mail-ic"></i>
@@ -40,13 +40,13 @@
                            <span class="contact-text">996 - 5553 - 453</span>
                        </li>
                    </ul> 
-                </div>
-                <div class="header-icon">
+                </nav>
+                <nav class="header-icon">
                     <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                     <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </div>
+                </nav>
             </div>
         </div>
     </div>
@@ -97,7 +97,25 @@
                             <div class="title big orange-text">
                                 <span>FULL WINTER KIT</span>
                             </div>
-                            <p class="product">Half Jacket + Skiny Trousers + Boot leather</p>
+                            <p class="subtitle">Half Jacket + Skiny Trousers + Boot leather</p>
+                            <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+                            <div class="price">
+                                <span>Price: 120$</span>
+                            </div>
+                            <div class="order flex-container align-center">
+                                <a href="">
+                                    <i class="icon icon-cart-hover-ic"></i>
+                                    <span>Order Now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-carousel-description">
+                            <div class="title big orange-text">
+                                <span>FULL WINTER KIT</span>
+                            </div>
+                            <p class="subtitle">Half Jacket + Skiny Trousers + Boot leather</p>
                             <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
                             <div class="price">
                                 <span>Price: 120$</span>
@@ -115,25 +133,7 @@
                             <div class="title big orange-text">
                                 <span>FULL WINTER KIT</span>
                             </div>
-                            <p class="product">Half Jacket + Skiny Trousers + Boot leather</p>
-                            <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-                            <div class="price">
-                                <span>Price: 120$</span>
-                            </div>
-                            <div class="order">
-                                <a href="">
-                                    <i class="icon icon-cart-hover-ic"></i>
-                                    <span>Order Now</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item-carousel-description">
-                            <div class="title big orange-text">
-                                <span>FULL WINTER KIT</span>
-                            </div>
-                            <p class="product">Half Jacket + Skiny Trousers + Boot leather</p>
+                            <p class="subtitle">Half Jacket + Skiny Trousers + Boot leather</p>
                             <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
                             <div class="price">
                                 <span>Price: 120$</span>
@@ -295,13 +295,17 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="load-more text-center white-bg">
-        <a href="">
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <span class="circle"></span>
-        </a>
+        <div class="load-more">
+            <div class="container">
+                <div class="text-center white-bg">
+                    <a href="">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="default-section">
         <div class="container">
@@ -322,7 +326,8 @@
                             </div>
                             <div class="kit-price">
                                 <a href=""><span class="icon icon-add-to-cart-hover-ic"></span></a>
-                                <span class="price-title orange-text">120$</span>
+                                <span class="price-title orange-text">120</span>
+                                <span class="price-dollar orange-text">$</span>
                             </div>
                         </div>
                     </div>
@@ -347,7 +352,36 @@
             <div class="items-wrap">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="best-items white-bg flex-container">
+                        <div class="best-items white-bg flex-container justify-sb">
+                            <div class="best-items-img white-bg">
+                                <a href="">
+                                    <img src="img/item-img-1-min.png" alt=""/>
+                                </a>
+                            </div>
+                            <div class="best-item-description">
+                                <div class="best-item-title white-bg">
+                                    <a href=""><span>Reebok Track Jacket</span></a>
+                                </div>
+                                <div class="best-item-info flex-container justify-sb">
+                                    <ul>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li class="color-gr"><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <div class="best-item-price orange-text">
+                                        <span>100$</span>
+                                    </div>
+                                </div>
+                                <div class="best-add-to-cart orange-text flex-container align-center">
+                                    <a href=""><span class="icon icon-add-to-cart-hover-ic"></span></a>
+                                    <span>add to cart</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="best-items white-bg flex-container justify-sb">
                             <div class="best-items-img white-bg">
                                 <a href="">
                                     <img src="img/item-img-1-min.png" alt=""/>
@@ -376,36 +410,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="best-items white-bg flex-container">
-                            <div class="best-items-img white-bg">
-                                <a href="">
-                                    <img src="img/item-img-1-min.png" alt=""/>
-                                </a>
-                            </div>
-                            <div class="best-item-description">
-                                <div class="best-item-title white-bg">
-                                    <a href=""><span>Reebok Track Jacket</span></a>
-                                </div>
-                                <div class="best-item-info flex-container justify-sb">
-                                    <ul>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li class="color-gr"><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    </ul>
-                                    <div class="best-item-price orange-text">
-                                        <span>100$</span>
-                                    </div>
-                                </div>
-                                <div class="best-add-to-cart orange-text text-center">
-                                    <a href=""><span class="icon icon-add-to-cart-hover-ic"></span></a>
-                                    <span>add to cart</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="best-items white-bg flex-container">
+                        <div class="best-items white-bg flex-container justify-sb">
                             <div class="best-items-img white-bg">
                                 <a href="">
                                     <img src="img/item-img-1-min.png" alt=""/>

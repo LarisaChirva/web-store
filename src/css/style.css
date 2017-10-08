@@ -344,14 +344,20 @@ textarea{
     margin-left: 35px;
 }
 
+.header a{
+    position: relative;
+    display: inline-block;
+}
+
 .label{
     width: 18px;
     height: 18px;
     border-radius: 50px;
     background-color: #34404b;
     position: absolute;
-    right: 3px;
-    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -100%;
 }
 
 .header-number{
@@ -394,6 +400,7 @@ textarea{
     padding: 35px 20px;
     font-family: 'Harmonia_bold';
     position: relative;
+    align-items: center;
 }
 
 .best-items:hover{
@@ -428,8 +435,6 @@ textarea{
 .best-item-description{
     padding-left: 25px;
     border-left: 1px solid #edeff1;
-    margin-left: 25px;
-
 }
 
 .best-item-description .best-add-to-cart{
@@ -496,8 +501,8 @@ label{
 }
 
 .new-latter .subscribe-input{
-    width: 280px;
-    padding-right: 6px;
+    width: 250px;
+    padding-right: 30px;
     font-family: 'Harmonia_italic';
 }
 
@@ -539,7 +544,10 @@ button{
 .aside-section .category-list{
     font-family: 'Harmonia_semibold';
     font-size: 16px;
-    line-height: 3.1em;
+}
+
+.aside-section .category-list li + li{
+    margin-bottom: 38px;
 }
 
 input[type="checkbox"]{
@@ -665,6 +673,7 @@ input[type="checkbox"]:checked + label::before{
     width: 10px;
     height: 16px;
     transition: all .3s linear;
+    border: none;
 }
 
 .sale-carousel .carousel-indicators li + li{
@@ -676,7 +685,7 @@ input[type="checkbox"]:checked + label::before{
     height: 36px;
 }
 
-.sale-carousel .product {
+.sale-carousel .subtitle {
     font-size: 18px;
     font-family: 'Harmonia_semibold';
     color: #3c4751;
@@ -703,9 +712,14 @@ input[type="checkbox"]:checked + label::before{
     opacity: .7;
 }
 
+.order .icon.icon-cart-hover-ic{
+    margin-right: 10px;
+}
+
 .load-more {
+    margin-top: 80px;
     height: 60px;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 
 .circle{
@@ -717,9 +731,13 @@ input[type="checkbox"]:checked + label::before{
 }
 
 .load-more a{
-    display: block;
+    display: inline-block;
     height: 100%;
     padding: 25px 0;
+}
+
+.load-more span + span{
+    margin-left: 5px;
 }
 
 .load-more .circle:hover{
@@ -810,7 +828,7 @@ input[type="checkbox"]:checked + label::before{
    text-transform: capitalize;
     color: #495662;
     display: block;
-    margin-top: 15px;
+    margin-top: 14px;
 }
 
 .kit-price{
@@ -818,15 +836,22 @@ input[type="checkbox"]:checked + label::before{
 }
 
 .kit-price .icon.icon-add-to-cart-hover-ic{
-    margin-right: 20px;
+    margin-right: 19px;
     display: inline-block;
 }
 
 .kit-price .price-title{
     text-transform: uppercase;
     font-family: 'Harmonia_black';
+    font-size: 32px;
+    display: inline-block;
+}
+
+.kit-price .price-dollar{
+    font-family: 'Harmonia_black';
     font-size: 22px;
     display: inline-block;
+    margin-left: -2px;
 }
 
 .footer{
@@ -855,6 +880,10 @@ input[type="checkbox"]:checked + label::before{
 
 .footer-nav ul + ul{
     margin-left: 90px;
+}
+
+.footer-nav li {
+    font-size: 14px;
 }
 
 .footer-nav li:hover, a:hover{

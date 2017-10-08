@@ -127,6 +127,14 @@ textarea{
     color: #ff5912;
 }
 
+.subtitle {
+    font-size: 18px;
+    font-family: 'Harmonia_semibold';
+    color: #3c4751;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
 .text{
     font-size: 16px;
     color: #495662;
@@ -546,8 +554,8 @@ button{
     font-size: 16px;
 }
 
-.aside-section .category-list li + li{
-    margin-bottom: 38px;
+.aside-section li + li{
+    margin-top: 38px;
 }
 
 input[type="checkbox"]{
@@ -685,11 +693,8 @@ input[type="checkbox"]:checked + label::before{
     height: 36px;
 }
 
-.sale-carousel .subtitle {
-    font-size: 18px;
-    font-family: 'Harmonia_semibold';
-    color: #3c4751;
-    margin-bottom: 18px;
+.sale-carousel .subtitle{
+    margin-bottom: 14px;
 }
 
 .sale-carousel .price{
@@ -719,7 +724,6 @@ input[type="checkbox"]:checked + label::before{
 .load-more {
     margin-top: 80px;
     height: 60px;
-    /*margin-bottom: 60px;*/
 }
 
 .circle{
@@ -918,12 +922,51 @@ input[type="checkbox"]:checked + label::before{
     cursor: pointer;
 }
 
-/*.size-radio::before{*/
-    /*content: '-';*/
-/*}*/
-
 .size-radio input[type="radio"]:checked + label{
     color: #ff5912;
     font-size: 18px;
 }
 /*Product description end*/
+
+/*Product start*/
+
+.product-wrap{
+    padding-top: 100px;
+}
+
+.product-wrap .subtitle{
+    margin-bottom: 35px;
+}
+
+.description-text p{
+    line-height: 1.875em;
+}
+
+.choose-size span,
+.item-count span{
+    font-size: 18px;
+    font-family: 'Harmonia_semibold';
+    margin-right: 22px;
+}
+
+.choose-size label{
+    font-size: 14px;
+    font-family: 'Harmonia_semibold';
+}
+
+.size-radio + .size-radio::before{
+    content: '-';
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 14px;
+    font-family: 'Harmonia_semibold';
+}
+
+.order-form{
+    padding: 40px 0;
+    margin-top: 40px;
+}
+.inpunt-guantity{
+    color: #ff5912;
+}
+/*Product end*/

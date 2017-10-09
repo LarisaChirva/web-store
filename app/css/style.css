@@ -192,11 +192,11 @@ textarea{
     margin-top: 79px;
 }
 
-.product-item:hover .item-price{
+.new-arrivals .product-item:hover .item-price{
     display: none;
 }
 
-.product-item:hover .item-title{
+.new-arrivals .product-item:hover .item-title{
     color: #ff5912;
 }
 
@@ -210,7 +210,7 @@ textarea{
     max-height: 100%;
 }
 
-.product-item:hover .item-img{
+.new-arrivals .product-item:hover .item-img{
     height: 90px;
 }
 
@@ -234,7 +234,7 @@ textarea{
     z-index: -1;
 }
 
-.product-item:hover .more-info-on-hover{
+.new-arrivals .product-item:hover .more-info-on-hover{
     opacity: 1;
     z-index: 99;
 }
@@ -406,7 +406,7 @@ textarea{
     height: 372px;
 }
 
-.product-item:hover{
+.new-arrivals .product-item:hover{
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1027,5 +1027,42 @@ input[type="checkbox"]:checked + label::before{
 }
 .inpunt-guantity{
     color: #ff5912;
+}
+
+.order-price{
+    font-size: 20px;
+    font-family: 'Harmonia_black';
+}
+
+.order-now{
+    margin-top: 40px;
+    padding-bottom: 124px;
+}
+
+.order-buy .item-controls{
+    margin-top: 0;
+    margin-right: 25px;
+}
+
+.order-buy .btn.btn-default{
+    color: #fff;
+    font-family: 'Harmonia_semibold';
+    font-size: 18px;
+    background-color: #ff5912;
+    padding: 18px 23px;
+    border: none;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
+}
+
+.order-buy .btn.btn-default:hover{
+    opacity: .8;
+}
+
+.product-wrap-title{
+    font-family: 'Harmonia_black';
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 /*Product end*/

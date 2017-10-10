@@ -19,6 +19,8 @@
     <!--Flexslider css-->
     <link rel="stylesheet" href="css/flexslider.css"/>
 
+    <link rel="stylesheet" href="css/slicknav.css"/>
+
     <!--Formstayler css-->
     <link rel="stylesheet" href="css/jquery.formstyler.theme.css"/>
 
@@ -122,10 +124,10 @@
                         </div>
                         <div class="order-info">
                             <div class="order-form border">
-                                <form id="product-optipn-form" class="flex-container justify-sb">
-                                    <div class="choose-size flex-container align-center">
+                                <form id="product-optipn-form" class="flex-container justify-sb align-center">
+                                    <div class="choose-size">
                                         <span>Choose Size</span>
-                                        <div class="radio-list-btn flex-container align-center">
+                                        <div class="radio-list-btn">
                                             <div class="size-radio">
                                                 <input type="radio" name="radio" id="sSize"/>
                                                 <label for="sSize">s</label>
@@ -154,13 +156,15 @@
                                 <div class="order-price">
                                     <span>Price: 120$</span>
                                 </div>
-                                <div class="order-buy flex-container">
-                                    <ol class="item-controls flex-container align-center">
+                                <div class="item-controls">
+                                    <ol>
                                         <li><a href=""><span class="icon icon-share-ic"></span></a></li>
                                         <li><a href=""><span class="icon icon-add-to-cart-ic"></span></a></li>
                                         <li><a href=""><span class="icon icon-like-ic"></span></a></li>
                                     </ol>
-                                    <button class="btn btn-default">Order Now</button>
+                                </div>
+                                <div class="oder-btn">
+                                    <button form="product-optipn-form" class="btn btn-default">Order Now</button>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +184,7 @@
             <div class="items-wrap">
                 <div class="row">
                     <div class="col-md-3 col-md-6">
-                        <div class="product-item text-center white-bg">
+                        <div class="product-related-products text-center white-bg">
                             <div class="item-img white-bg">
                                 <a href="">
                                     <img src="img/item-img-1.png" alt=""/>
@@ -197,7 +201,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-md-6">
-                        <div class="product-item text-center white-bg">
+                        <div class="product-related-products text-center white-bg">
                             <div class="item-img white-bg">
                                 <a href="">
                                     <img src="img/item-img-2.png" alt=""/>
@@ -214,7 +218,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-md-6">
-                        <div class="product-item text-center white-bg">
+                        <div class="product-related-products text-center white-bg">
                             <div class="item-img white-bg">
                                 <a href="">
                                     <img src="img/item-img-3.png" alt=""/>
@@ -231,7 +235,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-md-6">
-                        <div class="product-item text-center white-bg">
+                        <div class="product-related-products text-center white-bg">
                             <div class="item-img white-bg">
                                 <a href="">
                                     <img src="img/item-img-3.png" alt=""/>
@@ -251,7 +255,7 @@
             </div>
         </div>
     </div>
-    <section class="default-section new-latter">
+    <div class="default-section new-latter">
         <div class="container">
             <div class="subscribe-form white-bg flex-container align-center justify-sb">
                 <div class="subscribe-description flex-container align-center">
@@ -265,7 +269,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </div>
 </main>
 <footer class="footer white-bg">
     <div class="container">
@@ -310,6 +314,7 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/init.js"></script>
 </body>

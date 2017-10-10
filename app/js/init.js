@@ -66,13 +66,23 @@ $( function() {
 
     });
 
+    //formstayler init
+    $('.inpunt-guantity').styler();
+
+
     //flexslider init
     $('.flexslider').flexslider({
         animation: "slide",
         controlNav: "thumbnails"
     });
 
-    //formstayler init
-    $('.inpunt-guantity').styler();
+    //flexslide home
+    $(window).load(function(){
+        $('.item-flexslider').flexslider({
+            animation: "slide"
+        });
+    });
 
+    //slick nav init
+    $('.header-nav').slicknav();
 } );

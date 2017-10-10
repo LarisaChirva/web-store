@@ -182,11 +182,11 @@ textarea{
     margin-top: 79px;
 }
 
-.new-arrivals .product-item:hover .item-price{
+.product-item:hover .item-price{
     display: none;
 }
 
-.new-arrivals .product-item:hover .item-title{
+.product-item:hover .item-title{
     color: #ff5912;
 }
 
@@ -194,11 +194,12 @@ textarea{
     transition: all .3s linear;
     height: 216px;
 }
+
 .product-item .item-img img{
     max-height: 100%;
 }
 
-.new-arrivals .product-item:hover .item-img{
+.product-item:hover .item-img{
     height: 90px;
 }
 
@@ -209,6 +210,7 @@ textarea{
 .item-controls li + li{
     margin-left: 27px;
 }
+
 .product-item .more-info-on-hover{
     opacity: 0;
     position: absolute;
@@ -220,7 +222,7 @@ textarea{
     z-index: -1;
 }
 
-.new-arrivals .product-item:hover .more-info-on-hover{
+.product-item:hover .more-info-on-hover{
     opacity: 1;
     z-index: 99;
 }
@@ -392,7 +394,8 @@ textarea{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.product-item .item-description{
+.product-item .item-description,
+.product-related-products .item-description{
     padding: 0 37px;
     margin-top: 30px;
 }
@@ -655,7 +658,7 @@ input[type="checkbox"]:checked + label::before{
 
 .sale-carousel {
     min-height: 650px;
-    background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
+    background: url("../img/carousel-img-1.jpg") no-repeat center / cover;)
     margin-bottom: 60px;
 }
 
@@ -962,9 +965,13 @@ input[type="checkbox"]:checked + label::before{
     font-family: 'Harmonia_semibold';
 }
 
+.order-info .radio-list-btn{
+    display: inline-flex;
+}
+
 .order-form{
     padding: 40px 0;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .inpunt-guantity{
     color: #ff5912;
@@ -973,19 +980,19 @@ input[type="checkbox"]:checked + label::before{
 .order-price{
     font-size: 20px;
     font-family: 'Harmonia_black';
+    margin-right: auto;
 }
 
 .order-now{
-    margin-top: 40px;
     padding-bottom: 124px;
 }
 
-.order-buy .item-controls{
+.order-now .item-controls{
     margin-top: 0;
     margin-right: 25px;
 }
 
-.order-buy .btn.btn-default{
+.oder-btn .btn.btn-default{
     color: #fff;
     font-family: 'Harmonia_semibold';
     font-size: 18px;
@@ -995,8 +1002,12 @@ input[type="checkbox"]:checked + label::before{
     border-radius: 50px;
 }
 
-.order-buy .btn.btn-default:hover{
+.order-now .btn.btn-default:hover{
     opacity: .8;
+}
+
+.order-now .item-controls li, a{
+    display: inline-block;
 }
 
 .product-wrap-title{
@@ -1005,4 +1016,19 @@ input[type="checkbox"]:checked + label::before{
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
+.product-related-products{
+    padding: 35px 10px;
+    font-family: 'Harmonia_bold';
+    font-size: 18px;
+}
+
+.product-related-products .item-description .item-title{
+    margin-bottom: 30px;
+}
+
+/*.product-related-products .item-description{*/
+    /*padding: 0 37px;*/
+    /*margin-top: 30px;*/
+/*}*/
 /*Product end*/

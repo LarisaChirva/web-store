@@ -227,6 +227,13 @@ textarea{
     z-index: 99;
 }
 
+@media (max-width: 1199px) {
+    .product-item .item-description,
+    .product-item .more-info-on-hover{
+        padding: 0;
+    }
+}
+
 .product-item .colors{
     border-bottom: 1px solid #f2f4f7;
     padding-bottom: 30px;
@@ -757,17 +764,14 @@ input[type="checkbox"]:checked + label::before{
 }
 
 .adv-area{
-    padding: 30px 179px;
+    padding: 30px 0;
     border: 1px solid #eaedef;
-}
-
-.adv-area span{
-    display: inline-block;
 }
 
 .adv-area-text{
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
+    display: block;
 }
 
 .adv-area-number{
@@ -817,6 +821,15 @@ input[type="checkbox"]:checked + label::before{
 
 .sales-block{
     margin-right: 62px;
+}
+
+@media (max-width: 1199px) {
+    .kit{
+        padding: 20px 23px;
+    }
+    .sales-block{
+        margin-right: 20px;
+    }
 }
 
 .full-winter{

@@ -85,7 +85,7 @@ $( function() {
 
     //slick nav init
     $('.header-nav').slicknav(
-        {appendTo: ".header .bottom-header .flex-container.justify-sg",
+        {appendTo: ".header .bottom-header .flex-container.justify-sb",
         label:''
         });
 });
